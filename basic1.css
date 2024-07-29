@@ -1,0 +1,358 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+#home {
+    height: 100vh;
+    width: 100%;
+    background-color: darkgray;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 8%;
+    background-color: cornflowerblue;
+    border-bottom: 1px solid black;
+    position: -webkit-sticky;
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span {
+    color: black;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+.btn {
+    background-color: azure;
+    color: black;
+    border: 2px solid black;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 30px;
+    transition: transform 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+    border: 2px solid purple;
+    background-color: transparent;
+}
+
+.gmbr {
+    width: 300px;
+    border: 10px solid black;
+    position: absolute;
+    top: 125px;
+    right: 10%;
+    transform: translateX(20%);
+}
+
+#awal {
+    position: absolute;
+    top: 60%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+h4 {
+    color: darkcyan;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+
+h1 {
+    color: darkblue;
+    font-size: 65px;
+    margin: 20px 0;
+}
+
+.e {
+    color: darkcyan;
+}
+
+h3 {
+    color: black;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+#awal a {
+    font-size: 15px;
+    background: whitesmoke;
+    color: black;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+#awal a:hover {
+    background: transparent;
+    border: 2px solid cornflowerblue;
+}
+
+#about {
+    width: 100%;
+    padding: 100px 0;
+    background-color: #256D85;
+}
+
+.about-me {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-me img {
+    height: auto;
+    width: 300px;
+    border: 10px solid black;
+}
+
+.about-text {
+    width: 550px;
+}
+
+.about-text h2 {
+    color: azure;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+.ww {
+    color: black;
+}
+
+.as {
+    color: aliceblue;
+    letter-spacing: 2px;
+    font-size: 21px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    font-weight: 900;
+}
+
+.as:hover {
+    text-decoration: underline;
+}
+
+.sa {
+    color: lightcyan;
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    text-align: justify;
+}
+
+.hw {
+    color: black;
+    font-weight: bold;
+}
+
+.btn-c {
+    background-color: azure;
+    color: black;
+    border: 2px solid black;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: transform 0.3s;
+}
+
+.btn-c:hover {
+    transform: scale(1.2);
+    border: 2px solid cornflowerblue;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+    background: azure;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.rr {
+    text-align: center;
+    justify-content: center;
+}
+
+#pendidikan {
+    background: #f4f4f4;
+    padding: 2rem 0;
+}
+
+.judul h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.judul h2 .io {
+    color: #000000;
+}
+
+.ct-me {
+    width: 100%;
+    padding: 100px 0;
+    background-color: #87A2FB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ct-t .rt {
+    color: black;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.iu {
+    color: white;
+}
+
+.ct-box {
+    color: white;
+}
+
+.ct-box::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.ct {
+    width: 25%;
+    padding: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+}
+
+.tr {
+    color: black;
+}
+
+.ct .tr {
+    color: black;
+    padding-bottom: 10px;
+}
+
+.ct .y {
+    font-size: 18px;
+}
+
+.mp {
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+
+#ft {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: gray;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+#ft p:nth-child(1) {
+    font-size: 30px;
+    color: black;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#ft .ds:nth-child(2) {
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+    justify-content: center;
+}
+
+.sc {
+    display: flex;
+}
+
+.sc a {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 50%;
+    margin: 22px 10px;
+}
